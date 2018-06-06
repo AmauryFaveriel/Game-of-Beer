@@ -162,7 +162,8 @@ div.DecisionPoint{
     font-family: "Game of Thrones";
 }
 
-.FuncButtonDown {
+.FuncButtonDown
+ {
     text-align: center;
     border-style: solid;
     border-color: #FFFFFF;
