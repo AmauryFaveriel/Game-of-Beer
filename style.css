@@ -1,11 +1,24 @@
-body{
-    font-family: Geneva,Arial,sans-serif;
-    background-color: #ffffff;
-    color: #000000;
+@font-face {
+    font-family: 'Game of Thrones';
+    src: url('./fontface/GameofThrones.woff2') format('woff2'),
+        url('./fontface/GameofThrones.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
+
+body{
+  height: 100vh;
+    font-family: Arial,sans-serif;
+    background-color: #ffffff;
+    color: #FFFFFF;
     margin-right: 5%;
     margin-left: 5%;
     font-size: small;
+    font-size: 25px;
+    background-image: url(./img/bar.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 p{
@@ -25,27 +38,14 @@ div.Titles{
 
 button{
     display: inline;
-    font-size: 100%; /* Required to make IE scale button caption text size! */
+    font-size: 100%;
 }
 
 .ExerciseTitle{
-    font-size: 140%;
-    color: #000000;
-}
-
-div#Timer{
-    padding: 0.3em;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-
-span#TimerText{
-    padding: 0.3em;
-    border-width: 1px;
-    border-style: solid;
-    font-weight: bold;
-    display: none;
+    font-family: "Game of Thrones",Arial,sans-serif;
+    font-size: 100px;
+    color: #FFFFFF;
+    text-shadow: 2px 5px 5px rgba(0,0,0,0.6);
 }
 
 div.ControlButtons{
@@ -56,8 +56,8 @@ div.ControlButtons{
     margin-top: 1em;
 }
 
-.DecisionPointTitle{
-
+.text{
+  color: #FFFFFF;
 }
 
 .DecisionPointText{
@@ -67,6 +67,10 @@ div.ControlButtons{
 
 td#AssetDisplay{
     display: none;
+}
+
+td{
+  color: #FFFFFF;
 }
 
 div.Assets{
@@ -137,112 +141,35 @@ div.DecisionPoint{
 .FuncButton {
     text-align: center;
     border-style: solid;
-
-    border-left-color: #eeeeee;
-    border-top-color: #eeeeee;
-    border-right-color: #6e6e6e;
-    border-bottom-color: #6e6e6e;
+    border-color: #FFFFFF;
     color: #000000;
-    background-color: #dddddd;
-
+    background-color: #FFFFFF;
     border-width: 2px;
-    padding: 3px 6px 3px 6px;
+    padding: 15px;
     cursor: pointer;
+    font-family: "Game of Thrones";
 }
 
 .FuncButtonUp {
-    color: #dddddd;
     text-align: center;
     border-style: solid;
-
-    border-left-color: #eeeeee;
-    border-top-color: #eeeeee;
-    border-right-color: #6e6e6e;
-    border-bottom-color: #6e6e6e;
-
-    background-color: #000000;
-    color: #dddddd;
+    border-color: #FFFFFF;
+    color: #000000;
+    background-color: #FFFFFF;
     border-width: 2px;
-    padding: 3px 6px 3px 6px;
+    padding: 15px;
     cursor: pointer;
+    font-family: "Game of Thrones";
 }
 
 .FuncButtonDown {
-    color: #dddddd;
     text-align: center;
     border-style: solid;
-
-    border-left-color: #6e6e6e;
-    border-top-color: #6e6e6e;
-    border-right-color: #eeeeee;
-    border-bottom-color: #eeeeee;
-    background-color: #000000;
-    color: #dddddd;
-
-    border-width: 2px;
-    padding: 3px 6px 3px 6px;
-    cursor: pointer;
-}
-
-/*BeginNavBarStyle*/
-
-div.NavButtonBar{
-    background-color: #999999;
-    text-align: center;
-    margin: 2px 0px 2px 0px;
-    clear: both;
-}
-
-.NavButton {
-    border-style: solid;
-
-    border-left-color: #cccccc;
-    border-top-color: #cccccc;
-    border-right-color: #4c4c4c;
-    border-bottom-color: #4c4c4c;
-    background-color: #999999;
+    border-color: #FFFFFF;
     color: #000000;
-
+    background-color: #FFFFFF;
     border-width: 2px;
+    padding: 15px;
     cursor: pointer;
-}
-
-.NavButtonUp {
-    border-style: solid;
-
-    border-left-color: #cccccc;
-    border-top-color: #cccccc;
-    border-right-color: #4c4c4c;
-    border-bottom-color: #4c4c4c;
-    color: #999999;
-    background-color: #000000;
-
-    border-width: 2px;
-    cursor: pointer;
-}
-
-.NavButtonDown {
-    border-style: solid;
-
-    border-left-color: #4c4c4c;
-    border-top-color: #4c4c4c;
-    border-right-color: #cccccc;
-    border-bottom-color: #cccccc;
-    color: #999999;
-    background-color: #000000;
-
-    border-width: 2px;
-    cursor: pointer;
-}
-
-a{
-    color: #0000cc;
-}
-
-a:visited{
-    color: #0000ff;
-}
-
-a:hover{
-    color: #0000cc;
+    font-family: "Game of Thrones";
 }
