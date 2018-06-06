@@ -1,0 +1,248 @@
+body{
+    font-family: Geneva,Arial,sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+
+    margin-right: 5%;
+    margin-left: 5%;
+    font-size: small;
+}
+
+p{
+    text-align: left;
+    margin: 0px;
+}
+
+div,span,td{
+    color: #000000;
+}
+
+div.Titles{
+    padding: 0.5em;
+    text-align: center;
+    color: #000000;
+}
+
+button{
+    display: inline;
+    font-size: 100%; /* Required to make IE scale button caption text size! */
+}
+
+.ExerciseTitle{
+    font-size: 140%;
+    color: #000000;
+}
+
+div#Timer{
+    padding: 0.3em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+span#TimerText{
+    padding: 0.3em;
+    border-width: 1px;
+    border-style: solid;
+    font-weight: bold;
+    display: none;
+}
+
+div.ControlButtons{
+    text-align: center;
+}
+
+.Instructions{
+    margin-top: 1em;
+}
+
+.DecisionPointTitle{
+
+}
+
+.DecisionPointText{
+    text-align: left;
+    margin: auto;
+}
+
+td#AssetDisplay{
+    display: none;
+}
+
+div.Assets{
+    margin: 20px;
+}
+
+table.AssetTable{
+    border-width: 3px;
+    border-style: double;
+    border-color: #000000;
+    padding: 0.3em;
+}
+
+table.AssetTable th{
+    background-color: #000000;
+    color: #dddddd;
+    padding: 0.3em;
+}
+
+div.LinkList{
+    margin-top: 10px;
+}
+
+table.LinkTable{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.FeedbackText{
+    color: #000000;
+}
+
+table.DPTable{
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 0px;
+    padding: 10px;
+    vertical-align: top;
+}
+
+div.Feedback {
+    background-color: #ffffff;
+    left: 33%;
+    width: 34%;
+    top: 33%;
+    z-index: 1;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+    text-align: center;
+    color: #000000;
+    position: absolute;
+    display: none;
+}
+
+div.DecisionPoint{
+    background-color: #dddddd;
+    text-align: center;
+    color: #000000;
+    padding: 0.5em;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #000000;
+    margin: 1px;
+}
+
+.FuncButton {
+    text-align: center;
+    border-style: solid;
+
+    border-left-color: #eeeeee;
+    border-top-color: #eeeeee;
+    border-right-color: #6e6e6e;
+    border-bottom-color: #6e6e6e;
+    color: #000000;
+    background-color: #dddddd;
+
+    border-width: 2px;
+    padding: 3px 6px 3px 6px;
+    cursor: pointer;
+}
+
+.FuncButtonUp {
+    color: #dddddd;
+    text-align: center;
+    border-style: solid;
+
+    border-left-color: #eeeeee;
+    border-top-color: #eeeeee;
+    border-right-color: #6e6e6e;
+    border-bottom-color: #6e6e6e;
+
+    background-color: #000000;
+    color: #dddddd;
+    border-width: 2px;
+    padding: 3px 6px 3px 6px;
+    cursor: pointer;
+}
+
+.FuncButtonDown {
+    color: #dddddd;
+    text-align: center;
+    border-style: solid;
+
+    border-left-color: #6e6e6e;
+    border-top-color: #6e6e6e;
+    border-right-color: #eeeeee;
+    border-bottom-color: #eeeeee;
+    background-color: #000000;
+    color: #dddddd;
+
+    border-width: 2px;
+    padding: 3px 6px 3px 6px;
+    cursor: pointer;
+}
+
+/*BeginNavBarStyle*/
+
+div.NavButtonBar{
+    background-color: #999999;
+    text-align: center;
+    margin: 2px 0px 2px 0px;
+    clear: both;
+}
+
+.NavButton {
+    border-style: solid;
+
+    border-left-color: #cccccc;
+    border-top-color: #cccccc;
+    border-right-color: #4c4c4c;
+    border-bottom-color: #4c4c4c;
+    background-color: #999999;
+    color: #000000;
+
+    border-width: 2px;
+    cursor: pointer;
+}
+
+.NavButtonUp {
+    border-style: solid;
+
+    border-left-color: #cccccc;
+    border-top-color: #cccccc;
+    border-right-color: #4c4c4c;
+    border-bottom-color: #4c4c4c;
+    color: #999999;
+    background-color: #000000;
+
+    border-width: 2px;
+    cursor: pointer;
+}
+
+.NavButtonDown {
+    border-style: solid;
+
+    border-left-color: #4c4c4c;
+    border-top-color: #4c4c4c;
+    border-right-color: #cccccc;
+    border-bottom-color: #cccccc;
+    color: #999999;
+    background-color: #000000;
+
+    border-width: 2px;
+    cursor: pointer;
+}
+
+a{
+    color: #0000cc;
+}
+
+a:visited{
+    color: #0000ff;
+}
+
+a:hover{
+    color: #0000cc;
+}
